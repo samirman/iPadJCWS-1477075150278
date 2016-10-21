@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iPadJCWS
+  host: iPadJCWS
+  disk_quota: 1024M
+  services:
+  - iPadJCWS-cloudantNoSQLDB
